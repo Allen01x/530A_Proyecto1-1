@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background: lightsalmon;
+}
+
+#main_nav {
+  display: flex;
+  overflow: hidden;
+  max-height: 500px;
+  transition: max-height 1s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  background: #ff94df;
+  padding-top: 10px;
+  justify-content: center;
+  font-size: 18px; 
+  font-weight: 400;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* Enlaces del menú */
+#main_nav a {
+  color: rgb(20, 26, 21);
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#main_nav a:hover {
+  font-weight: 600;
+  text-decoration: solid;
+  color: #ffffff;
+}
