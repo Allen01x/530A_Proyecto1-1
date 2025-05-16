@@ -114,3 +114,93 @@ body{
   text-decoration: solid;
   color: #ffffff;
 }
+
+
+.productos {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.producto {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.producto h3 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.producto ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.producto li {
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+    padding: -5px;
+    margin-bottom: 25px;
+}
+
+.comprar{
+   padding: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: lightsalmon solid 1px;
+   border-radius: 10px;
+   background-color: lightsalmon;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.comprar:hover {
+   background-color: white;
+   border: lightsalmon solid 1px;
+   color: lightsalmon;
+   transform: scale(1.05);
+   border-color: lightsalmon;
+}
+
+.Precio {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white; /* Verde tipo "éxito" */
+    background-color: lightsalmon;
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
