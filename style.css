@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 
 
 .top-bar {
-    background-color: rgb(102, 186, 207);
+    background-color:  #FFA07A;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -37,7 +37,7 @@ body{
 }
 
 .main-header {
-    background-color: #FFA07A; /* Light salmon color */
+    background-color: #ffffff; /* Light salmon color */
     padding: 15px 0;
 }
 
@@ -90,7 +90,7 @@ body{
   max-height: 500px;
   transition: max-height 1s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-  background: #ff94df;
+  background:  #FFA07A;
   padding-top: 10px;
   justify-content: center;
   font-size: 18px; 
